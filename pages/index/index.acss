@@ -1,0 +1,32 @@
+.calculadora{
+  width: 99%;
+  
+}
+.botones{
+  display: flex;
+  padding: 5px;
+}
+.fila1, .fila2, .fila3, .fila4, .fila5{
+  width: 80%;
+}
+button{
+  background: #cacaca;
+  height: 10vh;
+  font-size: larger;
+  padding-top: 15px;
+  border-radius: 100%;
+  margin: 10px;
+}
+button:hover{
+  border: 4px solid #07bb3d;
+  color: #444;
+}
+.campo1{
+  font-size: x-large;
+  margin: 20px 32px;
+  height: 5vh;
+  width: 80%;
+  border-radius: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+}

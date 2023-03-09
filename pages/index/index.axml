@@ -1,0 +1,41 @@
+
+<view class="calculadora">
+
+  <view class="campo">        
+    <input type="number" class="campo1" value="{{pantalla}}" maxlength="10"  />  
+  </view>
+
+<view class="botones">
+  <view class="fila1">
+      <button onTap="potencia">^</button>   
+      <button onTap="seven">7</button>   
+      <button onTap="four">4</button> 
+      <button onTap="one">1</button> 
+      <button onTap="cero">0</button>  
+  </view>
+
+  <view class="fila2">
+    <button onTap="porcentaje">%</button>   
+    <button onTap="eight">8</button>   
+    <button onTap="five">5</button> 
+    <button onTap="two">2</button>   
+    <button class="boton2" onTap="delete">CE</button>
+  </view>
+
+  <view class="fila3">
+    <button onTap="raiz">√</button>    
+    <button onTap="nine" id="nine">9</button>   
+    <button onTap="six">6</button> 
+    <button onTap="three">3</button>  
+    <button onTap="total">=</button>
+  </view>
+
+  <view class="fila4">
+    <button onTap="decimal">.</button>    
+    <button onTap="suma">+</button>   
+    <button onTap="resta">-</button> 
+    <button onTap="multiplicar">*</button>  
+    <button onTap="dividir">/</button>
+  </view>
+  </view>
+</view>
